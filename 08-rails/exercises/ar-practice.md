@@ -1,4 +1,4 @@
-# Active Record Practice Exercises
+# Active Record Practice Exercises - Custom Methods & Relationships
 
 The following two models are to be used in an online game application.
 
