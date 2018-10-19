@@ -20,7 +20,7 @@ end
 
 
 ```ruby
-# app/models/user.rb
+# app/models/gameresult.rb
 class GameResult < ApplicationRecord
 
 
@@ -29,16 +29,46 @@ class GameResult < ApplicationRecord
 end
 ```
 
-2.  Looking at the Ada Books project, what methods do the following ActiveRecord relations provide?
+2.  How could you add the following methods to the two classes:
 
-    2.1. In the Author class, `has_many :books`
+```ruby
+# app/model/user.rb
+class User < ApplicationRecord
+
+
+  # Returns the percentage 0-100
+  # of games the user has won
+  def win_percentage
+
+
+
+
+
+
+
+  end
+
+  # Returns the user's average score
+  def average_score
+
+
+
+
+  end
+end
+
+```
+
+3.  Looking at the Ada Books project, what methods do the following ActiveRecord relations provide?
+
+    3.1. In the Author class, `has_many :books`
 
     a. `.authors`
     b. `.books`
     c. `.author`
     d. `.book`
 
-    2.2. In the Author class, `has_many :books`
+    3.2. In the Author class, `has_many :books`
 
       a. `.authors`
       b. `.books`
