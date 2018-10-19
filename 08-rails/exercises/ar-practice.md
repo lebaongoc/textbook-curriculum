@@ -29,6 +29,8 @@ class GameResult < ApplicationRecord
 end
 ```
 
+## Section 2 Custom Methods
+
 2.  How could you add the following methods to the two classes:
 
 ```ruby
