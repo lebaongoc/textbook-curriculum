@@ -35,7 +35,6 @@ end
 # app/model/user.rb
 class User < ApplicationRecord
 
-
   # Returns the percentage 0-100
   # of games the user has won
   def win_percentage
@@ -56,7 +55,6 @@ class User < ApplicationRecord
 
   end
 end
-
 ```
 
 3.  Looking at the Ada Books project, what methods do the following ActiveRecord relations provide?
