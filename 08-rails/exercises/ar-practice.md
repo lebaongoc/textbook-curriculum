@@ -31,13 +31,15 @@ end
 
 2.  Looking at the Ada Books project, what methods do the following ActiveRecord relations provide?
 
-  2.1. In the Author class, `has_many :books`
+    2.1. In the Author class, `has_many :books`
+
     a. `.authors`
     b. `.books`
     c. `.author`
     d. ``.book`
 
-  2.2. In the Author class, `has_many :books`
+    2.2. In the Author class, `has_many :books`
+    
       a. `.authors`
       b. `.books`
       c. `.author`
