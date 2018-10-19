@@ -6,7 +6,7 @@ The following two models are to be used in an online game application.
 
 ## Section 1 Relationships
 
-1.  Modify the following model classes to define the relationship.
+1.1  Modify the following model classes to define the relationship.
 
 ```ruby
 # app/models/user.rb
@@ -28,6 +28,15 @@ class GameResult < ApplicationRecord
 
 end
 ```
+
+1.2 What methods do these relationships provide to the models?
+
+Specifically what new method appears in `User` instances with the new code you added above.
+
+What gets added to `GameResult` instances when you add the relationship?
+
+
+What data types do these methods return?
 
 ## Section 2 Custom Methods
 
@@ -58,23 +67,3 @@ class User < ApplicationRecord
   end
 end
 ```
-
-3.  Looking at the Ada Books project, what methods do the following ActiveRecord relations provide?
-
-    3.1. In the Author class, `has_many :books`
-
-    a. `.authors`
-    b. `.books`
-    c. `.author`
-    d. `.book`
-
-    3.2. In the Author class, `has_many :books`
-
-      a. `.authors`
-      b. `.books`
-      c. `.author`
-      d. `.book`
-
-    3.3  Looking at the `User` and `GameResult` classes above, what methods do the relationships provide these classes?
-
-    3.4  What types of data do these methods return?
