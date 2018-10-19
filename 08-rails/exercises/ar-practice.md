@@ -76,3 +76,5 @@ end
       d. `.book`
 
     3.3  Looking at the `User` and `GameResult` classes above, what methods do the relationships provide these classes?
+
+    3.4  What types of data do these methods return?
