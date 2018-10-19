@@ -34,9 +34,9 @@ end
     a. `.authors`
     b. `.books`
     c. `.author`
-    d. ``.book` 
+    d. ``.book`
 
-    2.2. In the Author class, `has_many :books`
+  2.2. In the Author class, `has_many :books`
       a. `.authors`
       b. `.books`
       c. `.author`
