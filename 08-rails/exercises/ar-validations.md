@@ -72,6 +72,7 @@ end
 3.1  Using the fixtures above write the following test.
 
 ```ruby
+# /test/models/user_test.rb
 describe "User" do
   it "must have a unique username" do
 
