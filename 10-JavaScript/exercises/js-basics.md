@@ -13,7 +13,7 @@ The purpose of this document is to help you note important concepts in the intro
 `const` -
 
 
-2.  Explain the difference between backtics ( \` ) and strings enclosed with double quotes ( " ) and single quotes ( ' ).
+2.  Explain the difference between backticks ( \` ) and strings enclosed with double quotes ( " ) and single quotes ( ' ).
 
 
 
