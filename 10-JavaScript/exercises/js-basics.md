@@ -91,7 +91,7 @@ let isLicensed = // true or false from the keyboard
 ```
 
 
-10.  What do switch statements most resember in Ruby?
+10.  What do switch statements most resemble in Ruby?
 
 
 
