@@ -37,4 +37,24 @@ Complete this worksheet with your seat squad. Some items are questions, some ite
 
 1. Add another `img` tag to your `render` function to an image of your choice. The image source should be an absolute URL from an image already uploaded on the internet.
 
+1. What is wrong with this test?
+
+  ```javascript
+    // src/App.js
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    import { mount, shallow } from 'enzyme';
+    import App from './App';
+
+    describe('<App />', () => {
+
+      test('will match the last snapshot with deep rendering', () => {
+        const wrapper = mount(<App />);
+        expect(wrapper).toMatchSnapshot();
+      });
+    });
+  ```
+
+1. Explain the difference between shallow and deep rendering and give an example of when you would use each.
+
 1. **Challenge**: Create a local variable in your `render` function equal to your name. Update the `render` function to display the value associated with this local variable.
