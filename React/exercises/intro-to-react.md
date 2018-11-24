@@ -39,21 +39,21 @@ Complete this worksheet with your seat squad. Some items are questions, some ite
 
 1. What is wrong with this test?
 
-  ```javascript
-    // src/App.js
-    import React from 'react';
-    import ReactDOM from 'react-dom';
-    import { mount, shallow } from 'enzyme';
-    import App from './App';
-
-    describe('<App />', () => {
-
-      test('will match the last snapshot with deep rendering', () => {
-        const wrapper = mount(<App />);
-        expect(wrapper).toMatchSnapshot();
+    ```javascript
+      // src/App.js
+      import React from 'react';
+      import ReactDOM from 'react-dom';
+      import { mount, shallow } from 'enzyme';
+      import App from './App';
+  
+      describe('<App />', () => {
+      
+        test('will match the last snapshot with deep rendering', () => {
+          const wrapper = mount(<App />);
+          expect(wrapper).toMatchSnapshot();
+        });
       });
-    });
-  ```
+    ```
 
 1. Explain the difference between shallow and deep rendering and give an example of when you would use each.
 
